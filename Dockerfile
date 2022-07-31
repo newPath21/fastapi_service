@@ -6,4 +6,4 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 RUN python udp_server.py               
 
 COPY . /app
-EXPOSE 8001
+EXPOSE 8002
